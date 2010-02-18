@@ -1,0 +1,301 @@
+body {
+	background-color: #000000;
+	color: #ffffff;
+	font-size: 10pt;
+}
+
+body td {
+	color: #ffffff;
+	font-family: arial;
+	font-size: 10pt;
+}
+body a:link, a:active, a:visited {
+	color: #ff0000;
+	font-weight: normal;
+}
+body a:hover {
+	color: #990000;
+}
+
+.leftFrame {
+	width: 17%;
+	vertical-align: top;
+	border: 1pt solid #cccccc;
+	height: 100%;
+}
+
+.rightFrame {
+	vertical-align: top;
+	height: 100%;
+	border: 1pt solid #cccccc;
+}
+
+.pageName {
+	font-weight: bold;
+}
+
+.loginTable {
+	font-size: 10pt;
+	
+}
+
+.loginTable input {
+	color: #ffffff;
+	background-color: #000000;
+}
+
+.credits {
+	text-align: center;
+}
+
+/* Menus */
+
+.menuHeading {
+
+}
+
+.menus {
+	text-decoration: none;
+}
+
+.menus a:hover {
+	color: #999999;
+}
+.menus a:link, a:active, a:visited {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+/* Index */
+
+.indexName {
+	height: 10pt;
+	vertical-align: top;
+	
+}
+.indexWelcome {
+	vertical-align: top;
+	font-size: 8pt;
+}
+.indexNews {
+
+}
+
+.indexMissions {
+	
+}
+
+.indexNewbies {
+	
+}
+
+/* Manifest */
+
+.manifestHeader {
+	font-weight: bold;
+}
+
+.manifestRow {
+	border-top: 1pt solid #666666;
+}
+
+.seniorStaff {
+	font-weight: bold;
+}
+
+.enlistedCrew {
+	font-style: italic;
+}
+
+.onLOA {
+	color: #0000ff;
+}
+
+.NPC {
+	
+}
+
+/* Missions */
+
+.missionHeader {
+	font-weight: bold;
+	border-bottom: 1px solid #666666;
+}
+
+.missionTitle {
+	font-weight: bold;
+	font-size: 10pt;
+}
+
+.missionName {
+	font-style: italic;
+	text-indent: 1em;
+	vertical-align: top;
+}
+
+.missionContent {
+	text-indent: 1em;
+}
+
+.missionFooter {
+	font-size: 70%;
+	font-style: italic;
+}
+
+.missionRows {
+	
+}
+
+/* News */
+
+.newsHeader {
+	font-weight: bold;
+	font-style: italic;
+}
+.newsFooter {
+	font-size: 10pt;
+	font-style: italic;
+	padding-bottom: 10;
+}
+.newsContent {
+	text-indent: 1em;
+	padding-bottom: 5;
+}
+
+/* Posting */
+
+.postingHeader td{
+	border-bottom: 1pt solid #666666;
+	font-weight: bold;
+}
+
+.postingRows td{
+	padding: 2;
+	border-bottom: 1pt solid #666666;
+}
+
+.postingEm {
+	font-weight: bold;
+}
+
+/* Awards */
+
+.awardContent {
+	border-top: 1pt solid #666666;
+}
+
+.awardName {
+	font-style: italic;
+}
+
+/* Join */
+
+
+.joinTable input {
+
+}
+
+.joinLabel {
+	font-weight: bold;
+	vertical-align: top;
+}
+
+/* Coc */
+
+.cocRows {
+	font-size: 12pt;
+	font-weight: bold;
+}
+
+/* Popups */
+
+.popupSubHead {
+	font-weight: bold;
+}
+
+.deptName td{
+	font-size: 8pt;
+}
+
+.positionInfo {
+	text-indent: 1em;
+}
+
+.awardees {
+
+}
+
+.awardeeHeader {
+	font-style: italic;
+}
+
+.postsPopupTitle {
+	font-weight: bold;
+	border-bottom: 1pt solid #666666;
+}
+
+.pageNumbers {
+	font-size: 8pt;
+}
+
+.postsHeader td{
+	font-weight: bold;
+	border-bottom: 1pt solid #666666;
+}
+
+.postsPoster {
+	font-style: italic;
+}
+
+.postsSynop td{
+	border: 1pt solid #666666;
+	padding-bottom: 6;
+}
+
+.postsComments td{
+	font-size: 8pt;
+}
+
+/* Bios */
+
+.bioCharName {
+	font-weight: bold;
+	font-size: 11pt;
+}
+
+.bioLabel {
+	border: 1pt solid #666666;
+	font-weight: bold;
+	vertical-align: top
+}
+
+.altBioLabel {
+	font-weight: bold;
+	font-style: italic;
+	padding: 4;
+}
+
+/* Specs */
+
+.specsRows {
+
+}
+
+.specsLabel {
+	font-weight: bold;
+	border-bottom: 1pt solid #666666;
+}
+
+
+/* Document Juggler CSS */
+
+.catalogindex {font-weight: bold; color: green; text-decoration: none;}
+.rubric {font-size: 12pt; font-weight: bold;}
+.rubricname {font-size: 16pt; font-weight: bold;}
+.navlinks {font-size: 8pt; text-decoration: none; color: red;}
+.level0 {font-family: serif; font-size: 13pt; text-decoration: none; color: blue;}
+.level1 {font-family: serif; font-size: 12pt; text-decoration: none; color: blue;}
+.level2 {font-family: serif; font-size: 11pt; text-decoration: none; color: blue;}
+.level3 {font-family: serif; font-size: 10pt; text-decoration: none; color: blue;}
+.level4 {font-family: serif; font-size: 9pt; text-decoration: none; color: blue; font-style: oblique;}
+.level5 {font-family: serif; font-size: 8pt; text-decoration: none; color: blue; font-style: oblique;}

@@ -1,0 +1,161 @@
+***Trek RPG Site Manager Version 1.02***
+###Primary Edition###
+*Changelog version 1.02*
+
+%Rank Administration%
+-Added new administration options for Editing/Adding ranks
+
+%Admin Section%
+-Added the option to Edit old missions, by request
+-Corrected Bug Where some menu options would not show if Coc was turned off
+
+%Install%
+-Corrected bug where new Coc options were not installed
+-Corrected initial specs install not being ordered right
+
+*ChangeLog version 1.01*
+
+%Join Form/Processing%
+-Fixed error where if awards were turned off, applications would not create user accounts
+
+%Installer Problems%
+-Attempt to fix varying install problems with certain hosts
+
+%Crew Bio%
+-Fixed editing error in the case of register_globals being off
+
+%Chain Of Command%
+-Introduction of a temp CoC arrangement to allow Co's to alter the Coc manually
+
+%Database%
+-Added Coc field (int) to crew table
+
+
+*ChangeLog Version 1.0*
+
+%Misc Bug Fixes%
+-Changed query handling to accept apostrophes
+-Fixed some line break handling
+-Changed login and join form to comply with new php security defaults
+
+%News Admin%
+-Fixed a bug in editing storys
+-Fixed ordering of news
+
+%Installer%
+-Instead of deleting the files (which doesn't want to work all the time) the files now get renamed after install
+-No they don't, i've removed the old installation detection, and replaced it with a database approach.
+-Corrected problems with the installer and easy_installer files
+
+%Forum%
+-Changed the forum version from minibb 1.6 to 1.7b
+-Re-wrote the majority of the login code to work with the SPMS logins.
+-Changed the nature of minibb's admin system, now supports multipule admins
+-Got the system ready for userlevels
+-Added signatures into the forums
+-Can now change the custom user titles from inside the forum's language file
+-Made suggested minibb security fix, version 1.7d.
+-Fixed conflicting CSS issue, all forum css is now self-contained
+
+%login System%
+-Made some changes so now you don't get a white screen when logging in and out
+-Logins no longer remove you from the page you were on.
+-Fixed a bug involving userlevels
+-Fixed an issue with register_globals off and logins
+-Fixed bug with login.php being called directly (instead of through the login form)
+
+%Database%
+-New table to support the service records
+-Tables to handle posting report added
+-Added a 'rating' field to the rank table, for Coc stuff
+-New tables for document juggler
+
+%Core%
+-Made some tweaks to the handling of SQL querys, entire system should run faster.
+-Altered the sql class to include a small install detection
+-Changed handling of querys to include turning off of error reporting if required (default is false)
+-Altered crew class to include a new class method
+-Fixed report bug where custom points wern't added
+
+%Admin System%
+-When changing ranks, if records are set to on, you now get a form to make a record entry.
+-same thing with when giving an award.
+-Can now change the date a crew member joined, as per request
+-Much faster ordering of stats
+-Put in a simple stats page, will be more advanced stats in future
+-Altered the delete crew function to make sure all optional mod data is destroyed if requested
+-Added new page to handle service records
+-When manually adding players, you can now set an initial rank and status
+-Added mailer function into the crew admin page. Mailing options provided
+-Added utility to edit and maintain Css for department Colours.
+
+%Logins%
+-Fixed userlevel bug
+-Fixed 2 reg_gobals problems
+
+%Menus%
+-Implimented option parts section.
+-Implimented userlevel controls over access
+
+%Database Section%
+-Intergrated Document Juggler 2
+-Added class & admin files to support
+-Fixed reg_global issues
+
+%CSS%
+-New classes for Database Section
+-Changed the entire system to work with a more complete set of Css
+
+%Manifest%
+-Added an email Scrambler so bots don't pick up emails off your crew roster and spam your crew :) (Thanks Lac & Joe Barta)
+
+%Settings%
+-Added new settings for Document Juggler 2
+-New settings for posting report
+-New settings for awards system
+-implimented the optional settings for packaged modules
+-New optional settings to delete awards and posts if using those systems apon crew delete
+-New settings to control the sizes of the boxes and lines in the custom fields.
+
+%Awardee Display%
+-Fixed bug in displaying of crewmembers no longer aboard.
+
+%Crew Bio%
+-Fixed Display bug, if a crew member only has one name, only it is displayed.
+
+%Posting%
+-Corrected error that caused the 'Last Week' time frame to not display posts
+
+%Index%
+-If no new players have joined in the past 3 days, the "New Personnel" Banner won't display with an empty space below
+
+
+*ChangeLog Version 1b*
+
+%Admin SYstem%
+-Altered spelling mistakes
+
+%Forums%
+-Finally intergrated into the site design
+-Fixed several intergration bugs
+
+%New Parts%
+-Crew awards are now part of the system
+-Awards system in place
+-News system (1.* port)
+-Specifications
+-User Administration
+-Missions System
+
+%installer%
+-You can now use a friendly version of the install system =)
+-Fixed faulty install of spec ordering
+
+%Edit Bio%
+-Fixed bug in field ordering
+
+%class Libary%
+-Fixed bug in the specs libary todo with deleting
+
+
+*ChangeLog Version 1a*

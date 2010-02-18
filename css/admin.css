@@ -1,0 +1,212 @@
+/* Admin section */
+
+/* Crew Admin */
+
+.AcrewHeader td{
+	border-bottom: 1pt solid #666666;
+	font-weight: bold;
+}
+
+.AcrewRows {
+
+}
+
+/* Mission Admin */
+
+.AmissionHeader td{
+	font-weight: bold;
+	border-bottom: 1pt solid #666666;
+}
+
+.AmissionLabel {
+	font-weight: bold;
+}
+
+.AmissionRows {
+
+}
+
+/* User Admin */
+
+.AuserTop {
+	border-bottom: 1pt solid #666666;
+	font-weight: bold;
+}
+
+.AuserHeader td{
+	color: #666666;
+}
+
+.AuserRows {
+
+}
+
+/* Award Admin */
+
+.AawardInfo {
+	border-top: 1pt solid #666666;
+	border-bottom: 1pt solid #666666;
+	padding-bottom: 3;
+}
+.AawardName {
+	font-weight: bold;
+	text-indent: 1em;
+}
+
+/* Roster Admin */
+
+.ApositionRows {
+
+}
+
+.ApositionHeader td{
+	color: #666666;
+}
+
+.ApositionFooter td{
+	padding-bottom: 3;
+	padding-top: 3;
+}
+
+.AdeptLinks a:link {
+	font-weight: normal;
+	font-family: arial;
+	font-size: 10pt;
+	color: #000000;
+}
+
+.AdeptLinks a:hover {
+	font-weight: normal;
+	font-family: arial;
+	font-size: 10pt;
+	color: #000000;
+}
+
+.AdeptLinks a:visited {
+	font-weight: normal;
+	font-family: arial;
+	font-size: 10pt;
+	color: #000000;
+}
+
+.AdeptLinks {
+	font-weight: normal;
+	font-family: arial;
+	font-size: 10pt;
+	color: #000000;
+}
+
+/* News Admin */
+
+.AnewsContent {
+	text-indent: 1em
+}
+
+.AnewsFooter {
+	padding-bottom: 6;
+	font-size: 80%;
+	font-style: italic;
+}
+
+.AnewsHeader {
+	font-weight: bold;
+	font-style: italic;
+	border-bottom: 1pt solid #666666;
+}
+
+.AnewsPoster {
+	font-style: italic;
+	border-bottom: 1pt solid #666666;
+}
+
+/* Specifications Admin */
+
+.AspecsRows td{
+
+}
+
+/* Custom Bio Admin */
+
+.AcustomRows {
+
+}
+
+.AcustomTitle {
+	border-bottom: 1pt solid #666666;
+	font-weight: bold;
+}
+
+.AcustomHeader {
+	font-weight: bold;
+}
+
+.AcustomRowHeader td{
+	color: #666666;
+}
+
+/* Records Admin */
+
+.ArecordHeader td{
+	border-bottom: 1pt solid #666666;
+	font-weight: bold;
+}
+
+.ArecordRows {
+
+}
+
+.ArecordTitle {
+	font-weight: bold;
+}
+
+/* Posting Admin */
+
+.ApostingMessage {
+	color: #ff0000;
+}
+
+.ApostingHeader {
+	font-weight: bold;
+}
+
+.ApostingTitle {
+	border-bottom: 1px solid #666666;
+	font-weight: bold;
+}
+
+.ApostingPtsHeader td{
+	color: #666666;
+
+}
+
+.ApostingPtsRows {
+
+}
+
+/* Additional */
+
+.Amessage {
+	
+}
+
+.ApopupTitle {
+	border-bottom: 1pt solid #666666;
+	font-weight: bold;
+}
+
+.ApopupTable td {
+	font-weight: bold;
+}
+
+.ApopupHeader {
+	font-weight: bold;
+}
+
+.ApopupTable {
+	width: 100%;
+}
+
+.ApopupSubHeader td{
+	font-style: normal;
+	font-weight: normal;
+}

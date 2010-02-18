@@ -1,0 +1,64 @@
+Document Juggler 2 - Readme
+
+  A set of PHP-scripts to create dynamic MySQL-based help, reference or documentation pages.
+
+  Version 2.0
+  
+  Developers' site http://ddtstudio.de
+  An on-line functional demo version is available at http://test2.ddtstudio.de .
+  Download the current version: http://ddtstudio.de/home/download.php .
+  DJ on-line docs and help (older versions only): 
+  http://ddtstudio.de/home/modules.php?op=modload&name=Documents_and_Help&file=index .
+
+   Copyright (C) 2000-2002 
+   Oleksandr Missa, Valentyn Stashko 
+   DDT Studio, info@ddtstudio.de
+    
+    This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 2 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program; if not, write to the Free Software
+    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+
+  Requirements: 
+    -- PHP4 or higher (session support enabled, magic quotes set to "on")
+    -- MySQL 3.23.x or higher
+    
+  Summary:
+    -- submit, update and manage documentation tree hierarchy;
+    -- create multiple documents threads;
+    -- full control and flexible removal, update and editing of your documentary system.
+
+   Version 2.0 highlights:
+     -- fully reworked recursive tree engine ;
+     -- simplified administration interface ;
+     -- easier development of clone applications.
+
+   Versions compatibility:
+     -- MySQL tables are fully incompatible with the former DJ releases,
+     if you want to convert your older database to a newer version,
+     please contact Val at info@ddtstudio.de
+   
+  Installation:
+    [1] Edit "config.php" entering your environment values.
+    [2] Run http://yoursite.com/djadmin/setup.php (this will create MySQL tables).
+    [3] Delete file http://yoursite.com/djadmin/setup.php from server. 
+    
+  Documentation (older versions only):
+    -- see DJ for DJ on-line at 
+    http://ddtstudio.de/home/modules.php?op=modload&name=Documents_and_Help&file=index
+
+   CONTACT:
+     -- Contact developers for custom programming or suggest your ideas at info@ddtstudio.de
+   
+   SUPPORT FREEWARE DEVELOPERS:
+     -- Visit free DDT Studio's online exams site http://exams.ddtstudio.de
+        and teleworking portal site http://jobs.ddtstudio.de
